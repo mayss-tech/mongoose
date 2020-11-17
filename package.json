@@ -1,0 +1,24 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.3.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.10.13",
+    "validator": "^13.1.17"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
