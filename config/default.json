@@ -1,4 +1,5 @@
 {
-    "mongoURI":"mongodb+srv://may123:123456may@cluster0.78o2b.mongodb.net/project?retryWrites=true&w=majority"
+    "mongoURI":"mongodb+srv://may123:123mayssa456@cluster0.78o2b.mongodb.net/may123?retryWrites=true&w=majority"
+    
 
 }

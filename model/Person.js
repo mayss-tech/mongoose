@@ -4,8 +4,14 @@ const personSchema=mongoose.Schema({
     name:{
     type:String,
     required:true},
-    age:Number,
-    favoriteFoods:Array,String
+    age:{
+    type:Number,
+    required:true
+    },
+    favoriteFoods:{
+    type:Array,
+    required:true
+    }
 
 });
-module.exports = Person = mongoose.model('contact',personSchema )
+module.exports = Person = mongoose.model('person',personSchema )

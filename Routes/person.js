@@ -21,13 +21,13 @@ async (req,res)=>{
             favoriteFoods
         })
         newPerson.save();
-        res.json(newContact)
+        res.json(newPerson)
     }catch(error){
         console.error(errors)
         res.json(error)
     }
 });
-Router.get(`/allPerson `, async (req,res)=>{
+Router.get(`/allPerson`, async (req,res)=>{
     try {
         const allPerson = await Person.find()
         res.json(allPerson);
@@ -44,7 +44,7 @@ Router.post(`/updatePerson/:id`, async (req,res)=>{
         {
             name, 
             age, 
-            favoriteFoods 
+            favoriteFoods,
         }
         const updatePerson = await Person.findByIdAndUpdate({id},{editPerson})
         res.json(updatePerson)
